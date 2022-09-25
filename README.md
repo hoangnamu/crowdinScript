@@ -1,8 +1,10 @@
 # crowdinScript
-A helper tool for add a list of Crowdin strings sequentially 
+A helper tool for adding a list of Crowdin strings sequentially 
 
 According to Crowdin API https://developer.crowdin.com/api/v2/#operation/api.projects.strings.post
-We can only add one single string at a time. Therefore, if we have a list of project id and file id and a list of strings, this script will add those strings to each project
+We can only add one string at a time. Therefore, if we have a list of strings and a bunch of projects. This is a real pain in the ass.
+This script will add those strings to each project sequentially.
+
 First, list of projects with file id is required. It should be in JSON format
 
 Example: 
