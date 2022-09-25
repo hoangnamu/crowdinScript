@@ -4,6 +4,7 @@ A helper tool for add a list of Crowdin strings sequentially
 According to Crowdin API https://developer.crowdin.com/api/v2/#operation/api.projects.strings.post
 We can only add one single string at a time. Therefore, if we have a list of project id and file id and a list of strings, this script will add those strings to each project
 First, list of projects with file id is required. It should be in JSON format
+
 Example: 
 [
   {
@@ -17,6 +18,7 @@ Example:
 ]
 
 Second, list of strings based on Crowdin API model. However, this model was customized so as to prevent manally copy and paste file ID in each model
+
 Example:
 [
   {
