@@ -17,7 +17,7 @@ Example:
   }
 ]
 
-Second, list of strings based on Crowdin API model. However, this model was customized so as to prevent manally copy and paste file ID in each model
+Second, list of strings based on Crowdin API model. However, this model was customized so as to prevent dancing like monkey when copy and paste file ID in each model
 
 Example:
 [
