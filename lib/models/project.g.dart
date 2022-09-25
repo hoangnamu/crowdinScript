@@ -1,19 +1,17 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'client.dart';
+part of 'project.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-Client _$ClientFromJson(Map<String, dynamic> json) => Client(
-      name: json['name'] as String,
+Project _$ProjectFromJson(Map<String, dynamic> json) => Project(
       projectId: json['projectId'] as int,
       fileId: json['fileId'] as int,
     );
 
-Map<String, dynamic> _$ClientToJson(Client instance) => <String, dynamic>{
-      'name': instance.name,
+Map<String, dynamic> _$ProjectToJson(Project instance) => <String, dynamic>{
       'projectId': instance.projectId,
       'fileId': instance.fileId,
     };
