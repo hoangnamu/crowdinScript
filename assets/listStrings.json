@@ -1,0 +1,16 @@
+[
+  {
+    "text": "identifier_test_01_text",
+    "identifier": "identifier_test_01",
+    "context": "",
+    "isHidden": false,
+    "maxLength": 0
+  },
+  {
+    "text": "identifier_test_02_text",
+    "identifier": "identifier_test_02",
+    "context": "",
+    "isHidden": false,
+    "maxLength": 0
+  }
+]
